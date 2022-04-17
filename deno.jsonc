@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "experimentalDecorators": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "lint": {
+    "files": {
+      "exclude": ["target"],
+      "include": ["."]
+    },
+    "rules": {
+      "exclude": [
+        "ban-types",
+        "no-empty",
+        "no-explicit-any",
+        "no-namespace",
+        "require-await"
+      ],
+      "tags": ["recommended"]
+    }
+  },
+  "importMap": "import_map.json",
+  "include": ["."],
+  "tasks": {
+    "build_npm_pkg": "deno run -A --no-check=remote _tasks/build_npm_pkg.ts",
+    "main": "deno run -A --no-check=remote main.ts",
+    "test": "deno test -A --no-check=remote -L=info"
+  }
+}

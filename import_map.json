@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "@effect-ts/core/": "https://raw.githubusercontent.com/Effect-TS/core/refactor/hktV2/packages/core/src/"
+  },
+  "scopes": {
+    "@effect-ts/": {
+      "@effect-ts/core": "https://raw.githubusercontent.com/Effect-TS/core/refactor/hktV2/packages/core/src/"
+    }
+  }
+}

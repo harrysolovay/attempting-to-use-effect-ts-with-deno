@@ -1,0 +1,16 @@
+{
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "deno.config": "./deno.jsonc",
+  "deno.enable": true,
+  "deno.importMap": "./import_map.json",
+  "deno.lint": true,
+  "editor.defaultFormatter": "dprint.dprint",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "prettier.printWidth": 120
+}
